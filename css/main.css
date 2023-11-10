@@ -1,10 +1,13 @@
 :root {
-    --font-sans-serif: Asul, sans-serif;
+    --font-serif: Asul, sans-serif;
+    --font-bold: Asul:wght@700, sans-serif;
     --white: #fff;
     --gray: #c9cfcd;
     --teal: #a1bbb7;
-    --green: #2e413e; 
+    --green: #2e413e;
+    --black: #000; 
 }
+/** Typogrophy */
 html {
     box-sizing: border-box;
   }
@@ -13,6 +16,33 @@ html {
 }
 
 body {
-    font-family: var(--font-sans-serif);
+    font-family: var(--font-serif);
     color: var(--gray)
 } 
+
+h1 {
+    font-size: 2.4rem;
+}
+
+h1, h3 {
+    font-family: var(--font-bold);
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+/** Components */
+.component img {
+    max-width: initial;
+}
+
+.component-image {
+    border: 1px solid grey;
+    overflow-x: auto;
+}
+
+.component-code {
+    border: 1px solid grey;
+}
