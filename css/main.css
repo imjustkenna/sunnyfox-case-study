@@ -33,6 +33,24 @@ img {
     display: block;
 }
 
+header {
+    background-color: #2e413e;
+    overflow: hidden;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #c9cfcd;
+}
+
+a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
 /** Components */
 .component img {
     max-width: initial;
@@ -45,4 +63,26 @@ img {
 
 .component-code {
     border: 1px solid grey;
+}
+
+.nav-image {
+    display: grid;
+    grid-template-columns: 1fr repeat(4, auto);
+    margin-left: 200px;
+}
+
+.logo {
+    margin-right: 150px;
+}
+
+.header-navbar {
+    display: grid;
+    grid-template-columns: 1fr repeat(4, auto);
+    justify-content: center;
+    align-items: center;
+    grid-gap: 30px;
+    margin-left: 300px;
+    padding: 0;
+    list-style: none;
+    font-size: 14px;
 }
