@@ -89,46 +89,17 @@ a:hover {
     background-color: #a1bbb7;
 }
 
-.component-code-images {
-    display: grid;
-    grid-template-columns: repeat(2, auto);
-    justify-content: center;
-    grid-gap: 20px;
-    align-items: center;
-    margin: 0;
-    padding: 0;
-    background-color: #2e413e;
-}
-
-.beasties:hover {
-    transform: scale(1.02);
-}
-
-.decor:hover {
-    transform: scale(1.02);
-}
-
-.dandd:hover {
-    transform: scale(1.02);
-}
-
-.jewelry:hover {
-    transform: scale(1.02);
-}
-
-.wearable:hover {
-    transform: scale(1.02);
-}
-
 .nav-image {
     display: grid;
     grid-template-columns: 1fr repeat(4, auto);
+    align-content: center;
+    justify-content: center;
     margin-left: 100px;
     margin-right: 100px;
 }
 
 .logo {
-    margin-right: 150px;
+    margin-right: 200px;
 }
 
 .header-navbar {
@@ -139,7 +110,7 @@ a:hover {
     grid-gap: 30px;
     margin-left: 100px;
     margin-right: 100px;
-    padding-left: 100px;
+    padding-right: 50px;
     list-style: none;
     font-size: 14px;
     position: relative;
@@ -174,6 +145,37 @@ a:hover {
 
 .dropdown-3:hover .dropdown {
     display: block;
+}
+
+.component-code-images {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    justify-content: center;
+    grid-gap: 20px;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    background-color: #2e413e;
+}
+
+.beasties:hover {
+    transform: scale(1.02);
+}
+
+.decor:hover {
+    transform: scale(1.02);
+}
+
+.dandd:hover {
+    transform: scale(1.02);
+}
+
+.jewelry:hover {
+    transform: scale(1.02);
+}
+
+.wearable:hover {
+    transform: scale(1.02);
 }
 
 
