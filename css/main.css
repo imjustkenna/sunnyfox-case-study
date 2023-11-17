@@ -3,6 +3,7 @@
     --font-bold: Asul:wght@700, sans-serif;
     --white: #fff;
     --gray: #c9cfcd;
+    --lightgray: #E8EFEE;
     --teal: #a1bbb7;
     --green: #2e413e;
     --black: #000; 
@@ -13,6 +14,7 @@ html {
   }
   *, *:before, *:after {
     box-sizing: inherit;
+    max-width: 1200px;
 }
 
 body {
@@ -124,6 +126,7 @@ a:hover {
     z-index: 999;
     overflow: auto;
     list-style: none;
+    text-align: left;
     margin: 0;
     padding-left: 0;
     padding-top: 30px;
@@ -178,4 +181,25 @@ a:hover {
     transform: scale(1.02);
 }
 
+.component-code-form {
+    color: #E8EFEE;
+    line-height: 10px;
+    background-color: #a1bbb7;
+    padding: 2px;
+}
 
+.emailbutton {
+    color: #E8EFEE;
+    text-align: left;
+    border: 1px solid #E8EFEE;
+    border-radius: 10px;
+    margin-left: 370px;
+    margin-right: 370px;
+    padding: 7px;
+    padding-left: 20px;
+    margin-top: 0;
+}
+
+.formp {
+    margin-bottom: 20px;
+}
