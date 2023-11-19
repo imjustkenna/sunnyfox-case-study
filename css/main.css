@@ -8,19 +8,17 @@
     --green: #2e413e;
     --black: #000; 
 }
-/** Typogrophy */
+/** Basics */
 html {
-    box-sizing: border-box;
     max-width: 100%
   }
-  *, *:before, *:after {
-    box-sizing: inherit;
-}
 
 body {
     font-family: var(--font-serif);
     color: var(--gray);
     text-align: center;
+    background-color: #a1bbb7;
+    margin: 0;
 } 
 
 h1 {
@@ -73,24 +71,14 @@ a:hover {
 }
 
 .component-image {
-    border: 1px solid grey;
     overflow-x: auto;
 }
 
-.component-code {
-    border: 1px solid grey;
-}
-
 .component-code-explore {
-    border: 1px solid grey;
+    padding: 10px;
     background-color: #2e413e;
 }
-
-.component-code-title {
-    border: 1px solid grey;
-    background-color: #a1bbb7;
-}
-
+/** Navigation */
 .nav-image {
     display: grid;
     grid-template-columns: 1fr repeat(4, auto);
@@ -150,7 +138,7 @@ a:hover {
 .dropdown-3:hover .dropdown {
     display: block;
 }
-
+/** Shopping pop-outs */
 .component-code-images {
     display: grid;
     grid-template-columns: repeat(2, auto);
@@ -158,7 +146,7 @@ a:hover {
     grid-gap: 20px;
     align-items: center;
     margin: 0;
-    padding: 0;
+    padding: 10px;
     background-color: #2e413e;
 }
 
@@ -181,7 +169,7 @@ a:hover {
 .wearable:hover {
     transform: scale(1.02);
 }
-
+/** Forms */
 .component-code-form {
     color: #E8EFEE;
     line-height: 10px;
@@ -212,7 +200,7 @@ a:hover {
 .component-code-form a:hover {
     text-decoration: none;
 }
-
+/** Footer */
 .component-code-footer {
     background-color: #2e413e;
     padding-bottom: 50px;
@@ -243,14 +231,14 @@ a:hover {
 }
 
 .footer2 {
-    margin-right: 800px;
+    margin-right: 1050px;
     margin-left: 100px;
 }
 
 .footer-header {
-    margin: 0;
     text-align: left;
     padding: 5px;
+    margin: 0;
 }
 
 .footerbutton {
@@ -260,12 +248,11 @@ a:hover {
     border-radius: 10px;
     padding: 5px;
     padding-left: 20px;
-    padding-right: 30px;
     margin: 0;
 }
 
 .copyright {
-   padding-bottom: 10px;
+   padding-bottom: 20px;
    padding-left: 200px;
    font-size: x-small;
    text-align: right;
@@ -274,5 +261,5 @@ a:hover {
 }
 
 .cardimg {
-    margin-left: 400px;
+    margin-left: 650px;
 }
