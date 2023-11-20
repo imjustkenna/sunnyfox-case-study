@@ -208,6 +208,20 @@ a:hover {
 .dropdown-3:hover .dropdown {
     display: block;
 }
+/** Hat Section */
+.hat-info {
+    background-color: #a1bbb7;
+}
+.hat-button {
+    position: absolute;
+    transform: translate(3%, 3%);
+    border-radius: 10px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 300px;
+    margin-left: 150px;
+}
 /** Shopping pop-outs */
 .component-code-images {
     display: grid;
