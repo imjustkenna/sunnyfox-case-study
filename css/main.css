@@ -9,13 +9,14 @@
     --black: #000; 
 }
 /** Basics */
+
 html {
     max-width: 100%
   }
 
 body {
     font-family: var(--font-serif);
-    color: var(--gray);
+    color: #E8EFEE;
     text-align: center;
     background-color: #a1bbb7;
     margin: 0;
@@ -39,7 +40,6 @@ p {
     line-height: 30px;
     margin-left: 300px;
     margin-right: 300px;
-    margin-bottom: 50px;
 }
 
 img {
@@ -70,6 +70,10 @@ a:hover {
     max-width: initial;
 }
 
+.component-code {
+    text-align: left;
+}
+
 .component-image {
     overflow-x: auto;
 }
@@ -77,6 +81,47 @@ a:hover {
 .component-code-explore {
     padding: 10px;
     background-color: #2e413e;
+}
+
+.hauntedp {
+    margin-left: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.announcement {
+    font-size: 14px;
+    font-weight: bold;
+    color:  #fff;
+    text-align: center;
+}
+/** First Image */
+.image-header {
+    font-size: 50px;
+    position: absolute;
+    transform: translate(3%, 3%);
+    color: #fff;
+    text-align: center;
+    padding: 50px;
+    padding-top: 100px;
+    padding-right: 400px;
+}
+.image-button {
+    position: absolute;
+    transform: translate(3%, 3%);
+    color: #000;
+    background-color: #fff;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 300px;
+    margin-left: 150px;
+}
+
+.image-button:hover {
+    color: #000;
+    text-decoration: none;
+    transform: scale(1.02); 
 }
 /** Navigation */
 .nav-image {
