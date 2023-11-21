@@ -222,8 +222,24 @@ a:hover {
     color: #fff;
     position:inherit;
     border-radius: 10px;
-    border-style: solid;
-    border-color: #fff;
+    border: 1px solid #fff;
+    background-color:#a1bbb7;
+    padding: 10px;
+    padding-left: 195px;
+    padding-right: 195px;
+    margin: 10px;
+}
+
+.hat-button:hover {
+    text-decoration: none;
+    border-width: 2px;
+}
+
+.hat-button2 {
+    color: #fff;
+    position:inherit;
+    border-radius: 10px;
+    border: 1px solid #fff;
     background-color:#a1bbb7;
     padding: 10px;
     padding-left: 150px;
@@ -231,7 +247,7 @@ a:hover {
     margin: 10px;
 }
 
-.hat-button:hover {
+.hat-button2:hover {
     text-decoration: none;
     border-width: 2px;
 }
