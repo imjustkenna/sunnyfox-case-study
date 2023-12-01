@@ -40,6 +40,7 @@ h1, p {
 
 p {
     line-height: 30px;
+    width: fit-content;
 }
 
 img {
@@ -202,30 +203,36 @@ a:hover {
 .component-code-hatlistings {
     display: flex;
     flex: 1;
-    max-width: 1200px;
+    max-width: 1000px;
     padding: 0;
     margin-left: 200px;
     margin-bottom: 10px;
     text-align: left;
 }
+
 .individual-listing {
     font-size: 12px;
     padding: 0;
     margin: 10px;
     background: #2e413e;
 }
+
 .listing-title {
     color: #fff;
 }
+
 .listing-title:hover {
     text-decoration: underline;
 }
+
 .cost {
     padding: 0;
 }
+
 .individualimg {
     padding: 10px;
 }
+
 .individualimg:hover {
     width: 200px;
 }
@@ -338,6 +345,7 @@ a:hover {
     line-height: 10px;
     background-color: #a1bbb7;
     padding: 2px;
+    margin: 20px;
 }
 
 .emailbutton {
@@ -354,6 +362,8 @@ a:hover {
 
 .formp {
     margin-bottom: 20px;
+    margin-right: 370px;
+    margin-left: 370px;
 }
 
 .emailbutton:hover {
@@ -367,6 +377,7 @@ a:hover {
 .component-code-footer {
     background-color: #2e413e;
     padding-bottom: 50px;
+    margin: 0;
 }
 
 .footerlinks {
@@ -391,6 +402,7 @@ a:hover {
 .component-code-footer2 {
     background-color: #2e413e;
     font-size: small;
+    margin: 0;
 }
 
 .footer2 {
@@ -425,4 +437,5 @@ a:hover {
 
 .cardimg {
     margin-left: 650px;
+    margin-bottom: 0;
 }
