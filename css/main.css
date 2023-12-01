@@ -20,6 +20,7 @@ body {
     text-align: center;
     background-color: #a1bbb7;
     margin: 0;
+    overflow-x: hidden;
 } 
 
 h1 {
