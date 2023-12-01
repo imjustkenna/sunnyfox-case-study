@@ -84,7 +84,9 @@ a:hover {
 }
 
 .hauntedp {
+    padding-bottom: 10px;
     margin-left: 210px;
+    margin-right: 210px;
     margin-top: 0;
     margin-bottom: 0;
 }
@@ -118,8 +120,8 @@ a:hover {
     grid-gap: 30px;
     margin-left: 100px;
     margin-right: 100px;
-    padding-right: 200px;
-    padding-left: 200px;
+    padding-right: 230px;
+    padding-left: 180px;
     padding-bottom: 30px;
     padding-top: 30px;
     list-style: none;
@@ -162,7 +164,7 @@ a:hover {
 /** First Image */
 .header-image {
     width: 1800px;
-    margin: 0;
+    margin: 0px;
 }
 
 .image-header {
@@ -176,6 +178,7 @@ a:hover {
     padding-right: 360px;
     padding-left: 260px;
 }
+
 .image-button {
     position: absolute;
     transform: translate(3%, 3%);
@@ -205,13 +208,13 @@ a:hover {
     text-align: left;
 }
 .individual-listing {
-    font-size: 14px;
+    font-size: 12px;
+    padding: 0;
     margin: 10px;
     background: #2e413e;
 }
 .listing-title {
     color: #fff;
-    padding: 0;
 }
 .listing-title:hover {
     text-decoration: underline;
@@ -220,20 +223,40 @@ a:hover {
     padding: 0;
 }
 .individualimg {
-    padding-left: 10px;
+    padding: 10px;
 }
 .individualimg:hover {
     width: 200px;
 }
+
+.listingbutton {
+    color: #fff;
+    position:inherit;
+    border-radius: 10px;
+    border: 1px solid #fff;
+    background-color:#a1bbb7;
+    padding: 10px;
+    padding-left: 150px;
+    padding-right: 150px;
+    margin: 10px;
+}
+    
 /** Hat Section */
+.hat-image {
+    width: 1800px;
+    margin: 0px;
+}
+
 .hat-info {
     position: absolute;
     transform: translate(-20%, 30%);
     background-color: #a1bbb7;
-    margin-left: 300px;
-    margin-right: 300px;
+    margin-left: 450px;
+    margin-right: 100px;
+    padding: 20px;
     text-align: center;
 }
+
 .hat-button {
     color: #fff;
     position:inherit;
