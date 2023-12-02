@@ -236,7 +236,7 @@ a:hover {
 }
 
 .individualimg:hover {
-   width: 200px;
+    transform: scale(1.02);
 }
 
 .listing-button {
