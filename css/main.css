@@ -423,6 +423,7 @@ a:hover {
     padding-left: 20px;
     margin-right: 350px;
     margin-left: 0;
+    overflow: auto;
 }
 
 .copyright {
