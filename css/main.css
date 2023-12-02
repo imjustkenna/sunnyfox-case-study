@@ -22,7 +22,7 @@ body {
     text-align: center;
     background-color: #a1bbb7;
     margin: 0;
-} 
+}
 
 h1 {
     font-size: 2.4rem;
@@ -44,7 +44,6 @@ p {
 }
 
 img {
-    max-width: 100%;
     display: block;
     margin: 0px;
 }
@@ -109,7 +108,7 @@ a:hover {
 
 .logo {
     padding-right: 250px;
-    padding-left: 100px;
+    padding-left: 50px;
 }
 
 .header-navbar {
@@ -439,6 +438,7 @@ a:hover {
 }
 
 .cardimg {
-    padding-left: 700px;
+    width: 100%;
+    padding-left: 800px;
     margin-bottom: 0;
 }
