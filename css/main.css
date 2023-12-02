@@ -11,7 +11,10 @@
 /** Basics */
 
 html {
-    max-width: 100%
+    max-width: 100%;
+    padding: 0px;
+    margin: 0px;
+    overflow-x: hidden;
   }
 
 body {
@@ -51,6 +54,7 @@ header {
     padding-top: 30px;
     padding-left: 30px;
     padding-right: 30px;
+    padding-bottom: 0;
     margin: 0;
     background-color: #2e413e;
 }
@@ -68,6 +72,8 @@ a:hover {
 /** Type */
 .component-code {
     text-align: left;
+    padding: 0;
+    margin: 0;
 }
 
 .left-title {
@@ -156,7 +162,7 @@ a:hover {
 }
 /** First Image */
 .header-image {
-    width: 1800px;
+    width: 100%;
     margin: 0px;
 }
 
@@ -194,7 +200,8 @@ a:hover {
 .component-code-hatlistings {
     display: flex;
     flex: 1;
-    max-width: 800px;
+    flex-wrap: wrap;
+    width: fit-content;
     padding: 0;
     margin-left: 200px;
     margin-bottom: 10px;
@@ -225,7 +232,7 @@ a:hover {
 }
 
 .individualimg:hover {
-    width: 200px;
+   width: 200px;
 }
 
 .listingbutton {
@@ -235,14 +242,13 @@ a:hover {
     border: 1px solid #fff;
     background-color:#a1bbb7;
     padding: 10px;
-    padding-left: 150px;
-    padding-right: 150px;
-    margin: 10px;
+    margin-left: 150px;
+    margin-right: 150px;
 }
     
 /** Hat Section */
 .hat-image {
-    width: 1800px;
+    width: 100%;
     margin: 0px;
 }
 
