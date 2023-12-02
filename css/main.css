@@ -41,6 +41,7 @@ h1, p {
 
 p {
     line-height: 30px;
+    margin: 0;
 }
 
 img {
@@ -109,7 +110,7 @@ a:hover {
 
 .logo {
     padding-right: 250px;
-    padding-left: 250px;
+    padding-left: 100px;
 }
 
 .header-navbar {
@@ -190,7 +191,7 @@ a:hover {
     padding-left: 20px;
     padding-right: 20px;
     margin-top: 300px;
-    margin-left: 550px;
+    margin-left: 600px;
 }
 
 .image-button:hover {
