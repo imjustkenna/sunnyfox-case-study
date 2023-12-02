@@ -255,10 +255,10 @@ a:hover {
 
 .hat-info {
     position: absolute;
-    transform: translate(-20%, 30%);
     background-color: #a1bbb7;
-    margin-left: 450px;
-    margin-right: 100px;
+    margin-top: 100px;
+    margin-left: 350px;
+    margin-right: 350px;
     padding: 20px;
     text-align: center;
 }
@@ -423,7 +423,6 @@ a:hover {
     padding-left: 20px;
     margin-right: 350px;
     margin-left: 0;
-    overflow: auto;
 }
 
 .copyright {
