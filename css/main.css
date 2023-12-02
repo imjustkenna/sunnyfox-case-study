@@ -260,11 +260,11 @@ a:hover {
 .hat-info {
     position: absolute;
     background-color: #a1bbb7;
-    margin-top: 100px;
-    margin-left: 350px;
-    margin-right: 350px;
-    padding: 20px;
+    margin-top: 150px;
+    margin-left: 360px;
+    padding: 10px;
     text-align: center;
+    width: 50%;
 }
 
 .hat-button {
