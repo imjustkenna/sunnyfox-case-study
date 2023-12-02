@@ -278,6 +278,7 @@ a:hover {
     padding-left: 195px;
     padding-right: 195px;
     margin: 10px;
+    width: 100%;
 }
 
 .hat-button:hover {
@@ -295,6 +296,7 @@ a:hover {
     padding-left: 150px;
     padding-right: 150px;
     margin: 10px;
+    width: 100%;
 }
 
 .hat-button2:hover {
@@ -359,10 +361,11 @@ a:hover {
     border: 1px solid #E8EFEE;
     border-radius: 10px;
     margin-left: 500px;
-    margin-right: 500px;
     padding: 7px;
     padding-left: 20px;
+    padding-right: 350px;
     margin-top: 0;
+    width: fit-content;
 }
 
 .formp {
@@ -428,8 +431,9 @@ a:hover {
     border-radius: 10px;
     padding: 5px;
     padding-left: 20px;
-    margin-right: 350px;
+    padding-right: 30px;
     margin-left: 0;
+    width: fit-content;
 }
 
 .copyright {
