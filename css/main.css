@@ -182,14 +182,15 @@ a:hover {
 
 .image-button {
     position: absolute;
-    left: 600px;
-    right: 620px;
-    bottom: 80px;
+    transform: translate(3%, 3%);
     border-radius: 10px;
     color: #000;
     background-color: #fff;
     padding: 10px;
-    padding-left: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 300px;
+    margin-left: 600px;
 }
 
 .image-button:hover {
