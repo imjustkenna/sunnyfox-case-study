@@ -109,6 +109,7 @@ a:hover {
 
 .logo {
     padding-right: 250px;
+    padding-left: 250px;
 }
 
 .header-navbar {
@@ -263,7 +264,6 @@ a:hover {
     margin-right: 350px;
     padding: 20px;
     text-align: center;
-    max-height: 300px;
 }
 
 .hat-button {
